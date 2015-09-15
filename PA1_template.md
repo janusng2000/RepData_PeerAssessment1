@@ -34,11 +34,11 @@ median(total.steps, na.rm=TRUE)
 ```{r}
 mean(total.steps, na.rm = TRUE)
 ```
-## [1] 9354.23
+###### [1] 9354.23
 ```{r}
 median(total.steps, na.rm=TRUE)
 ```
-## [1] 10395
+####### [1] 10395
 ```{r}
 
 ##### What is the average daily activity pattern?
@@ -60,19 +60,19 @@ ggplot(data=averages, aes(x=interval, y=steps)) +
 ```{r}
 averages[which.max(averages$steps), ]
 ```
-##     interval    steps
-## 104      835 206.1698
+######     interval    steps
+###### 104      835 206.1698
 
 ##### Inputing missing values 
 
 ```{r}
 missing <- is.na(data$steps)
-# How many missing
+###### How many missing
 table(missing)
 ```
-## missing
-## FALSE  TRUE 
-## 15264  2304
+###### missing
+###### FALSE  TRUE 
+###### 15264  2304
 
 ##### Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. All of the missing values are filled in with mean value for that 5-minute interval.
 
@@ -99,12 +99,12 @@ qplot(total.steps, binwidth = 1000, xlab = "total number of steps taken each day
 ```{r}
 mean(total.steps)
 ```
-## [1] 10766.19
+###### [1] 10766.19
 
 ```{r}
 median(total.steps)
 ```
-## [1] 10766.19
+###### [1] 10766.19
 
 ##### Are there differences in activity patterns between weekdays and weekends?
 
