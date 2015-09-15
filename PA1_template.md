@@ -56,7 +56,7 @@ ggplot(data=averages, aes(x=interval, y=steps)) +
     ylab("average number of steps taken")
 
 ```
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of Rplot2](https://github.com/janusng2000/RepData_PeerAssessment1/blob/master/png/Rplot2.png) 
 
 ##### Which 5-minutte interval, On average across all the days in the dataset,, contains the maximum number of steps?
 
