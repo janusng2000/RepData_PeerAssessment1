@@ -27,7 +27,7 @@ mean(total.steps, na.rm=TRUE)
 median(total.steps, na.rm=TRUE)
 
 ```
-![plot of chunk unnamed-chunk-1](https://github.com/janusng2000/RepData_PeerAssessment1/blob/master/png/Rplot1.png)
+![plot of chunk Rplot1](https://github.com/janusng2000/RepData_PeerAssessment1/blob/master/png/Rplot1.png)
 
 ##### What is mean total number of steps taken per day?
 
@@ -56,6 +56,7 @@ ggplot(data=averages, aes(x=interval, y=steps)) +
     ylab("average number of steps taken")
 
 ```
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 ##### Which 5-minutte interval, On average across all the days in the dataset,, contains the maximum number of steps?
 
@@ -91,6 +92,7 @@ filled.data$steps <- mapply(fill.value, filled.data$steps, filled.data$interval)
 total.steps <- tapply(filled.data$steps, filled.data$date, FUN = sum)
 qplot(total.steps, binwidth = 1000, xlab = "total number of steps taken each day")
 ```
+![plot of chunk Rplot3](https://github.com/janusng2000/RepData_PeerAssessment1/blob/master/png/Rplot3.png) 
 
 ```{r}
 mean(total.steps)
@@ -120,5 +122,5 @@ averages <- aggregate(steps ~ interval + day, data = filled.data, mean)
 ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) + 
     xlab("5-minute interval") + ylab("Number of steps")
 ```
-
+![plot of chunk Rplot4](https://github.com/janusng2000/RepData_PeerAssessment1/blob/master/png/Rplot4.png) 
 
