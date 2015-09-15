@@ -27,6 +27,7 @@ mean(total.steps, na.rm=TRUE)
 median(total.steps, na.rm=TRUE)
 
 ```
+![plot of chunk unnamed-chunk-1](https://github.com/janusng2000/RepData_PeerAssessment1/blob/master/png/Rplot1.png)
 
 ##### What is mean total number of steps taken per day?
 
