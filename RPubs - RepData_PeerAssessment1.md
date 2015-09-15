@@ -27,7 +27,7 @@
 </div>
 <div class="modal-body">
 <div class="alert" id="login_message" style="display: none"></div>
-<form accept-charset="UTF-8" action="http://rpubs.com/auth/login" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="AxXJ8xpf2YfdsSFVhHZpuJY1/gO+r4j7+3KiAp4jNyc="></div>
+<form accept-charset="UTF-8" action="http://rpubs.com/auth/login" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="â"><input name="authenticity_token" type="hidden" value="AxXJ8xpf2YfdsSFVhHZpuJY1/gO+r4j7+3KiAp4jNyc="></div>
 <input name="return_url" type="hidden">
 <div class="fieldset">
 <div class="control-group">
@@ -104,7 +104,7 @@ Hide
 </span>
 Comments
 <span id="comment-count">
-(–)
+(â)
 </span>
 </button>
 <button class="btn btn-small btn-info" id="btn-share">
@@ -121,7 +121,7 @@ Hide Toolbars
 </div>
 <div class="modal fade hide" id="modal-share">
 <div class="modal-body">
-<btn class="close" data-dismiss="modal" type="button">×</btn>
+<btn class="close" data-dismiss="modal" type="button">Ã</btn>
 <h2 class="first">Post on:</h2>
 <p>
 <a class="btn btn-primary btn-large" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Frpubs.com%2FJanusng2000%2FRepData_PeerAssessment1&source=tweetbutton&text=RepData_PeerAssessment1&url=http%3A%2F%2Frpubs.com%2FJanusng2000%2FRepData_PeerAssessment1" onclick="window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=275,width=660&#39;);return false;">
