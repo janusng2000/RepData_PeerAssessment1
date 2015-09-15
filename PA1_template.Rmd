@@ -38,11 +38,6 @@ mean(total.steps, na.rm = TRUE)
 median(total.steps, na.rm=TRUE)
 ```
 
-```{r}
-mean(total.steps, na.rm = TRUE)
-```
-
-
 ##### What is the average daily activity pattern?
 
 ```{r}
